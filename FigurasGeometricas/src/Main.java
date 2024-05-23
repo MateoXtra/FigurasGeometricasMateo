@@ -6,7 +6,7 @@ public class Main {
         Circulo mifigura2 = new Circulo();
         Cuadrado mifigura3 = new Cuadrado();
         Cuadrilateros mifigura4 = new Cuadrilateros();
-        Triangulo mifigura5 = new Triangulo()
+        Triangulo mifigura5 = new Triangulo();
 
         Cuadrado mifigura6 = new Cuadrado(12.33, 12.12);
         Cuadrilateros mifigura7 = new Cuadrilateros(23.32, 17.64);
