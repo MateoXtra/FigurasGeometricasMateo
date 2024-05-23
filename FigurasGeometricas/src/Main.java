@@ -33,5 +33,7 @@ public class Main {
         mifigura5.setAltura(20.5);
         System.out.println("El Area del triangulo es: ");
         System.out.println(mifigura5.calcularArea());
+
+        System.out.println("Nuevo cambio, es el 4");
     }
 }
