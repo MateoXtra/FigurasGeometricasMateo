@@ -11,9 +11,7 @@ public class Main {
         Circulo mifigura5 = new Circulo(12.00);
         Cuadrado mifigura6 = new Cuadrado(12.33, 12.12);
         Cuadrilateros mifigura7 = new Cuadrilateros(23.32, 17.64);
-
-
-
+        // xd
 
         System.out.println("CUADRADO");
         System.out.println("El nombre del Cuadrado es: " + mifigura3.getNombre());
