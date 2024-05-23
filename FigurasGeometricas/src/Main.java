@@ -3,12 +3,11 @@ public class Main {
     public static void main(String[] args) {
 
         FigurasGeometricas mifigura1 = new FigurasGeometricas();
-
         Circulo mifigura2 = new Circulo();
         Cuadrado mifigura3 = new Cuadrado();
         Cuadrilateros mifigura4 = new Cuadrilateros();
+        Triangulo mifigura5 = new Triangulo()
 
-        Circulo mifigura5 = new Circulo(12.00);
         Cuadrado mifigura6 = new Cuadrado(12.33, 12.12);
         Cuadrilateros mifigura7 = new Cuadrilateros(23.32, 17.64);
         // xd
@@ -27,5 +26,11 @@ public class Main {
         System.out.println("El Area del cuadrilatero es: ");
         System.out.println(mifigura4.calcularArea());
         mifigura4.setNumLados(4);
+
+        System.out.println("TRIANGULO");
+        mifigura5.setBase(10.5);
+        mifigura5.setAltura(20.5);
+        System.out.println("El Area del triangulo es: ");
+        System.out.println(mifigura5.calcularArea());
     }
 }
